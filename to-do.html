@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>TODO-LIST</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div class="todo-wrapper">
+        <h2>My To-Do List</h2>
+        <p>Note:</p>
+        <ul style="list-style-type:disc;">
+        <li>Double-click an item to mark it complete.</li>
+        <li>your recent todo list is saved even after reloading the page,only if u save the list</li>
+        <ul>
+        <form name="todo-adder">
+            <input type="text" id="todo-entry-box" />
+        </form>
+        <button id="add-button" class="pretty-button">Add</button>
+        <br />
+        <ol id="todo-list">
+        </ol>
+        <div id="control-wrapper">
+            <button id="clear-completed-button" class="pretty-button">Clear Completed</button>
+            <button id="empty-button" class="pretty-button">Empty List</button>
+            <button id="save-button" class="pretty-button">Save List</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+   
